@@ -1,0 +1,76 @@
+Duelo (Descripcion)
+	Batirse a duelo de un duelo --> ROLVICTIMARIO: Combatiente
+		Intervinieron padrinos? --> CANTIDADVICTIMARIOS: cantidadPadrinos + 1
+			En que estado se encuentra el participante atacado? --> ESTADOVICTIMA: Fallecido/Con vida con heridas/Con vida sin heridas
+				If fallecido -> mostrarHomicidio
+				If con vida con heridas -> mostrarLesiones
+				If con vida sin heridas
+		
+		
+		Se concreto el duelo? --> CIRCEXT
+		
+	Participar de un duelo como padrino --> ROLVICTIMARIO: Padrino	
+	Instigar a otro a provocar o a aceptar un duelo
+	Desacreditar publicamente a otro por no desafiar o por rehusar un desafio
+		Se realizo el duelo?
+			No
+			Si, pero estadoVictima NOT(fallecido), no lesiones o solo lesiones 89
+			SI, CON estadoVictima fallecido, o lesiones 90/91
+	Provocar o dar causa a un desafio, proponiendose un interes pecunario u otro objeto inmoral
+		Se realizo el duelo?
+			No OR Si pero sin muerte ni lesiones
+			Si AND lesiones
+			Si AND homicidio
+	
+Duelo (Descripcion)
+	Batirse a duelo (Condiciones puestas por combatientes) --> ROLVICTIMARIO: Combatiente
+	Batirse a duelo (Condiciones puestas por padrinos) --> ROLVICTIMARIO: Combatiente	
+	Participar de un duelo como padrino --> ROLVICTIMARIO: Padrino	
+	Instigar a otro a provocar o a aceptar un duelo
+	Desacreditar publicamente a otro por no desafiar o por rehusar un desafio
+	Provocar o dar causa a un desafio, proponiendose un interes pecunario u otro objeto inmoral
+	Padrinos de un duelo utilizan cualquier genero de alevosia en la ejecucion del mismo
+	Padrinos concertan un duelo a muerte o en condiciones tales que de ellas debiere resultar la muerte
+
+
+En que estado se encuentra la victima?
+	Fallecido
+		Homicidio
+	Con vida, con heridas
+		Con lesiones
+	Con vida, sin heridas
+		Sin lesiones
+
+	
+dueloRealizado --> PODRIA PLANTEARLO COMO CIRCEXT =SI en caso que no se haya realizado el duelo	
+	si/no
+	
+	
+¿Intervinieron padrinos? ¿Cuantos? (Mayores de edad, que elijan las armas y arreglen las demas condiciones del desafio)
+	cantidadVictimarios = cantidadPadrinos + 1 (el victimario)
+	Si NO internvienen padrinos --> cantidadVictimarios = 1
+	
+padrino o participante?
+	Preguntar y fijar rol del victimario
+	
+Delitos
+	Homicidio
+	Suicidio
+	Aborto
+	Lesion
+	Duelo --> Si elije duelo pide el tipo de duelo
+	
+Tipo de duelo --> Se guarda como tipoDuelo en clase duelo
+	Participar de un duelo
+	Instigar a otro a provocar o a aceptar un duelo
+	Desacreditar publicamente a otro por no desafiar o por rehusar un desafio
+	Provocar o dar causa a un desafio, proponiendose un interes pecunario u otro objeto inmoral
+	
+Consecuencia del duelo --> Se guarda en delito
+	Homicidio
+		Fijar estadoVictima = fallecido / no pedir estadoVictima
+	Lesion
+		Fijar estadoVictima = con vida, con heridas / no pedir estadoVictima
+		Mostrar tipoLesion
+	Ninguna de las anteriores
+		Fijar estadoVictima = con vida, sin heridas / no pedir estadoVictima

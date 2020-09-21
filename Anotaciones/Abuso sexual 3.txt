@@ -1,0 +1,47 @@
+violacion
+	abuso
+		JCOMBOBOX 1
+		Abuso sexual agravado por el resultado" crlf)
+        Abuso sexual agravado por el parentesco con la victima" crlf)
+        Abuso sexual agravado por la calidad del autor" crlf)
+        Abuso sexual agravado por el numero de autores" crlf)
+        Abuso sexual agravado por el medio empleado" crlf)
+        Abuso sexual agravado por la edad y situacion de convivencia preexistente con la victima" crlf)
+        Ninguno de los anteriores
+	abuso gu
+		JCOMBOBOX2
+		Abuso sexual agravado por el resultado" crlf)
+        Abuso sexual agravado por el parentesco con la victima" crlf)
+        Abuso sexual agravado por la calidad del autor" crlf)
+        Abuso sexual agravado por la enfermedad del autor" crlf)
+        Abuso sexual agravado por el numero de autores" crlf)
+        Abuso sexual agravado por el medio empleado" crlf)
+        Abuso sexual agravado por la edad y situacion de convivencia preexistente con la victima" crlf)
+        Ninguno de los anteriores	
+	abuso carnal
+		JCOMBOBOX2
+		Abuso sexual agravado por el resultado" crlf)
+        Abuso sexual agravado por el parentesco con la victima" crlf)
+        Abuso sexual agravado por la calidad del autor" crlf)
+        Abuso sexual agravado por la enfermedad del autor" crlf)
+        Abuso sexual agravado por el numero de autores" crlf)
+        Abuso sexual agravado por el medio empleado" crlf)
+        Abuso sexual agravado por la edad y situacion de convivencia preexistente con la victima" crlf)
+        Ninguno de los anteriores
+estupro
+	abuso gu
+		JCOMBOBOX3
+		Abuso sexual agravado por el resultado" crlf)
+        Abuso sexual agravado por el parentesco con la victima" crlf)
+        Abuso sexual agravado por la calidad del autor" crlf)
+        Abuso sexual agravado por la enfermedad del autor" crlf)
+        Abuso sexual agravado por la edad y situacion de convivencia preexistente con la victima" crlf)
+        Ninguno de los anteriores		
+	abuso carnal
+		JCOMBOBOX3
+		Abuso sexual agravado por el resultado" crlf)
+        Abuso sexual agravado por el parentesco con la victima" crlf)
+        Abuso sexual agravado por la calidad del autor" crlf)
+        Abuso sexual agravado por la enfermedad del autor" crlf)
+        Abuso sexual agravado por la edad y situacion de convivencia preexistente con la victima" crlf)
+        Ninguno de los anteriores

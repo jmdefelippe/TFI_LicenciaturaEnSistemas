@@ -1,0 +1,68 @@
+90
+	consec 1 a 4
+	proced =
+		NOT emocion violenta
+		NOT conduc imprudente
+91
+	consec 5 a 7
+	proced =
+		NOT emocion violenta
+		NOT conduc imprudente
+
+92A
+	consec n
+	proced =
+		2 a 4, 9
+	motivos =
+		NOT Otro	
+92B
+	consec 1 a 4
+	proced =
+		2 a 4, 9
+	motivos =
+		NOT Otro
+92C
+	consec 5 a 7	
+	proced =
+		2 a 4, 9
+	motivos =
+		NOT Otro	
+		
+93A
+	consec n
+	proced =
+		5
+	circExt = si
+93B		
+	consec 1 a 4
+	proced =
+		5
+	circExt = si
+93C		
+	consec 5 a 7
+	proced =
+		5
+	circExt = si
+94A
+	consec 8
+	proced =
+		6, 7
+	cantVictimas = 1
+94B
+	consec 1 a 7
+	proced =
+		6, 7
+	cantVictimas > 1
+
+94 bis
+	consec 1 a 7
+	proced =
+		8
+	circExt = 
+		No (Si hay agravantes)
+	
+89	
+	consec n
+	proced =
+		NOT emocion violenta
+		NOT conduc imprudente

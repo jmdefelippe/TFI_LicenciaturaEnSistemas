@@ -1,0 +1,24 @@
+Abandono de persona
+
+Procedimientos
+	Poner en peligro la vida o salud de otro, colocandolo en situacion de desamparo
+	Poner en peligro la vida o salud de una persona incapaz de valerse y a la que deba mantener o cuidar, abandonandola a su suerte
+	Poner en peligro la vida o salud de una persona a la que el mismo autor haya incapacitado
+	Omitir prestarle el auxilio necesario (cuando pudiere hacerlo sin riesgo personal o no diere aviso inmediatamente a la autoridad) a una persona que haya encontrado perdida o desamparada (herida, invalida, amenazada de un peligro cualquiera o menor de 10 anios)
+
+	
+Como consecuencia del abandono: Resulto grave danio en el cuerpo o en la salud de la victima?
+	Si -> circExt = No
+	No -> circExt = Si
+
+Estado de la victima?
+	Fallecido
+	Not fallecido
+
+Relacion con victima
+	Not otra
+	Otra
+	
+	
+	
+	

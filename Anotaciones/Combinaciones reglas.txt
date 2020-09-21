@@ -1,0 +1,459 @@
+Articulo 79
+	CUANDO NO SE DISPARA NINGUNA DE LAS SIGUIENTES
+	existe homicidio, no existe prision, no existe inhabilitacion especial
+
+Articulo 80
+	delito:	homicidio doloso (voluntario)
+	procedimiento: 1-3 , n
+	motivos: 1-21
+	circExt:
+		si:	80B
+		no: 80A 
+			ARREGLAR ESTO PONIENDO TODO EN UNA CON UN IF
+	cantidadVictimarios: >1
+	relacion: Asc/Desc, Cony/ExCony, Pareja/ExPareja
+
+Articulo 81A
+	delito:	homicidio doloso (voluntario)
+	procedimiento: 4
+	motivo: *
+	circExt: Si		
+
+	relacion: Otra	
+			
+			
+Articulo 81B
+	delito:	homicidio doloso (voluntario)
+	procedimiento: 5
+	motivo: 22
+	circExt: *
+	
+	relacion: Otra
+
+Articulo 82A
+	delito:	homicidio doloso (voluntario)
+	procedimiento: 4
+	motivo: *
+	circExt: Si
+	
+	relacion: Asc/Desc, Cony/ExCony, Pareja/ExPareja
+	
+Articulo 82B
+	delito:	homicidio doloso (voluntario)
+	procedimiento: 5
+	motivo: 22
+	circExt: *	
+	
+	relacion: Asc/Desc, Cony/ExCony, Pareja/ExPareja
+	
+Articulo 83
+	delito: Instigar a otro al suicidio, Ayudar a otro a cometer suicidio
+	procedimiento: *
+	motivo: *
+	circExt: *
+	
+	estadoVictima: Fallecido
+	
+	
+Articulo 84A
+	delito: Homicidio culposo (involuntario)
+	procedimiento: 6,7
+	motivo: *
+	circExt: *	
+	
+	cantVictimas: =1 
+	
+	condena: prision 1 a 5 años, inhabilitacion especial de 5 a 10 años
+	
+
+Articulo 84B
+	delito: Homicidio culposo (involuntario)
+	procedimiento: 6,7
+	motivo: *
+	circExt: *
+	
+	cantVictimas: >1
+	
+	condena: prision 2 a 5 años, inhabilitacion especial de 5 a 10 años
+
+	
+------------------------------------------------------------------------------------------------	
+	VER
+	
+	
+	
+Articulo 84bisA
+	delito: Homicidio culposo (involuntario)
+	procedimiento: conduccion imprudente, negligente o antirreglamentaria de un vehiculo con motor 
+	motivo o agravante: 
+		ninguno
+	circExt:
+
+	condena: prision 2 a 5 años, inhabilitacion especial 5 a 10 años
+	
+	
+Articulo 84bisB
+	delito: Homicidio culposo (involuntario)
+	procedimiento: 8	conduccion imprudente, negligente o antirreglamentaria de un vehiculo con motor
+	motivo o agravante:
+		Conductor se fugo
+		Conductor no intento socorrer a la victima
+		Conductor condujo bajo efecto de estupefacientes 
+		Conductor supero los limites permitidos de alcohol en sangre
+		Conductor condujo en exceso de velocidad de mas de 30 km por encima de la maxima permitida
+		Conductor condujo estando inhabilitado para hacerlo por autoridad competente
+		Conductor violo señalizacion del semaforo
+		Conductor violo las señales de transito
+			
+	**
+	Podria plantear el menu como un arbol de if
+	Si selecciono el procedimiento 8
+	Muestra la lista de agravantes
+	Si sucedio alguno de ellos -> No hay circExt
+	Si no sucedio alguno de ellos -> Hay circExt
+	**
+			
+		mas de una victima fatal	
+			
+	circExt:
+
+	
+		
+	condena: prision 3 a 6 años, inhabilitacion especial 5 a 10 años
+	
+	
+------------------------------------------------------------------------------------------------	
+	
+
+Articulo 85_A
+	delito: Aborto
+	procedimiento: 9
+	motivo: not23
+	circExt:
+	cantVictimas:
+	cantVictimarios:
+	
+	estadoVictima: not(Fallecido)
+	
+	condena: prision 3 a 10 años
+
+	
+Articulo 85_B
+	delito: Aborto
+	procedimiento: 9
+	motivo: not23
+	circExt:
+	cantVictimas:
+	cantVictimarios:
+	
+	estadoVictima: Fallecido
+	
+	condena: prision 3 a 15 años	
+
+	
+Articulo 85_C
+	delito: Aborto
+	procedimiento: 10
+	motivo: not23
+	circExt:
+	cantVictimas:
+	cantVictimarios:
+	
+	estadoVictima: Not(Fallecido)
+	
+	condena: 1 a 4 años
+
+Articulo 85_D
+	delito: Aborto
+	procedimiento: 10
+	motivo: not23
+	circExt:
+	cantVictimas:
+	cantVictimarios:
+	
+	estadoVictima: Fallecido
+	
+	condena: 1 a 6 años
+	
+	
+	********
+Articulo 86_A
+	delito: Aborto
+	procedimiento: 9
+	motivo: 23
+	circExt:
+	cantVictimas:
+	cantVictimarios:
+	
+	estadoVictima: not(Fallecido)
+	
+	condena: prision 3 a 10 años
+
+	
+Articulo 86_B
+	delito: Aborto
+	procedimiento: 9
+	motivo: 23
+	circExt:
+	cantVictimas:
+	cantVictimarios:
+	
+	estadoVictima: Fallecido
+	
+	condena: prision 3 a 15 años	
+
+	
+Articulo 86_C
+	delito: Aborto
+	procedimiento: 10
+	motivo: 23
+	circExt:
+	cantVictimas:
+	cantVictimarios:
+	
+	estadoVictima: Not(Fallecido)
+	
+	condena: 1 a 4 años
+
+Articulo 86_D
+	delito: Aborto
+	procedimiento: 10
+	motivo: 23
+	circExt:
+	cantVictimas:
+	cantVictimarios:
+	
+	estadoVictima: Fallecido
+	
+	condena: 1 a 6 años
+
+	
+
+	
+Articulo 86_E
+	delito: Aborto
+	procedimiento: 10 
+	motivo: 24,25	
+	circExt:
+	cantVictimas:
+	cantVictimarios:
+	
+	condena: No es punible
+
+Articulo 86_F
+	delito: Aborto
+	procedimiento: 11 
+	motivo: 25	
+	circExt:
+	cantVictimas:
+	cantVictimarios:
+	
+	condena: No es punible	
+
+Articulo 87
+	delito: Aborto
+	procedimiento: 12
+	motivo:
+	circExt:
+	cantVictimas:
+	cantVictimarios:
+	
+	condena: prision 6 meses a 2 años
+	
+
+	
+Articulo 88
+	delito: Aborto
+	procedimiento: 13
+	motivo: *
+	circExt:
+	cantVictimas:
+	cantVictimarios:
+	
+	condena: prision 1 a 4 años
+
+
+
+
+
+
+90
+	consec =
+		Debilitacion permanente de la salud, de un sentido, de un organo, de un miembro o dificultad permanente de la palabra
+		Puesta en riesgo de la vida
+		Inutilizacion laboral por mas de un mes
+		Deformacion permanente en el rostro
+	proced =
+		NOT emocion violenta
+		NOT conduc imprudente
+91
+	consec =
+		Enfermedad mental o corporal, cierta o probablemente incurable
+		Inutilidad laboral permanente
+		Perdida de un sentido, de un organo, de un miembro, del uso de un organo o miembro, de la palabra o de la capacidad de engendrar o concebir
+	proced =
+		NOT emocion violenta
+		NOT conduc imprudente
+
+92A
+	consec =
+		Otro daño no mencionado
+	proced =
+		Ensaniamiento
+		Alevosia
+		Veneno
+        Otro procedimiento indisioso
+	motivos =
+		Precio
+		Promesa remuneratoria
+		Placer
+		Codicia
+		Odio racial
+		Odio religioso
+		Odio de genero
+		Odio a la orientacion sexual
+		Odio a la identidad de genero o su expresion
+		Medio idoneo para crear un peligro comun
+		Funcion/cargo/condicion de seguridad publica/policial/penitenciaria (de la victima)
+		Abuso de funcion/cargo de seguridad publica/policial/penitenciaria (del victimario)
+		Violencia de genero (De hombre a mujer)
+		Causar sufrimiento
+		Preparar otro delito
+		Facilitar otro delito
+		Consumar otro delito
+		Ocultar otro delito
+		Asegurar resultados de otro delito
+		Procurar impunidad para si u otro delito
+		No haber logrado el fin de otro delito
+		Otro
+	
+92B
+	consec =
+		Debilitacion permanente de la salud, de un sentido, de un organo, de un miembro o dificultad permanente de la palabra
+		Puesta en riesgo de la vida
+		Inutilizacion laboral por mas de un mes
+		Deformacion permanente en el rostro	
+	proced =
+		Ensaniamiento
+		Alevosia
+		Veneno
+        Otro procedimiento indisioso
+	motivos =
+		Precio
+		Promesa remuneratoria
+		Placer
+		Codicia
+		Odio racial
+		Odio religioso
+		Odio de genero
+		Odio a la orientacion sexual
+		Odio a la identidad de genero o su expresion
+		Medio idoneo para crear un peligro comun
+		Funcion/cargo/condicion de seguridad publica/policial/penitenciaria (de la victima)
+		Abuso de funcion/cargo de seguridad publica/policial/penitenciaria (del victimario)
+		Violencia de genero (De hombre a mujer)
+		Causar sufrimiento
+		Preparar otro delito
+		Facilitar otro delito
+		Consumar otro delito
+		Ocultar otro delito
+		Asegurar resultados de otro delito
+		Procurar impunidad para si u otro delito
+		No haber logrado el fin de otro delito
+		Otro		
+92C
+	consec =
+		Enfermedad mental o corporal, cierta o probablemente incurable
+		Inutilidad laboral permanente
+		Perdida de un sentido, de un organo, de un miembro, del uso de un organo o miembro, de la palabra o de la capacidad de engendrar o concebir		
+	proced =
+		Ensaniamiento
+		Alevosia
+		Veneno
+        Otro procedimiento indisioso
+	motivos =
+		Precio
+		Promesa remuneratoria
+		Placer
+		Codicia
+		Odio racial
+		Odio religioso
+		Odio de genero
+		Odio a la orientacion sexual
+		Odio a la identidad de genero o su expresion
+		Medio idoneo para crear un peligro comun
+		Funcion/cargo/condicion de seguridad publica/policial/penitenciaria (de la victima)
+		Abuso de funcion/cargo de seguridad publica/policial/penitenciaria (del victimario)
+		Violencia de genero (De hombre a mujer)
+		Causar sufrimiento
+		Preparar otro delito
+		Facilitar otro delito
+		Consumar otro delito
+		Ocultar otro delito
+		Asegurar resultados de otro delito
+		Procurar impunidad para si u otro delito
+		No haber logrado el fin de otro delito
+		Otro
+		
+93A
+	consec =
+		Otro daño no mencionado
+	proced =
+		emocion violenta
+	circExt = si
+93B		
+	consec =
+		Debilitacion permanente de la salud, de un sentido, de un organo, de un miembro o dificultad permanente de la palabra
+		Puesta en riesgo de la vida
+		Inutilizacion laboral por mas de un mes
+		Deformacion permanente en el rostro
+	proced =
+		emocion violenta
+	circExt = si
+93C		
+	consec =
+		Enfermedad mental o corporal, cierta o probablemente incurable
+		Inutilidad laboral permanente
+		Perdida de un sentido, de un organo, de un miembro, del uso de un organo o miembro, de la palabra o de la capacidad de engendrar o concebir	
+	proced =
+		emocion violenta
+	circExt = si
+94A
+	consec =
+		Daño en el cuerpo o en la salud
+	proced =
+		Imprudencia, negligencia o impericia en arte o profesion
+		Inobservancia de reglamentos o deberes a cargo
+	cantVictimas = 1
+94B
+	proced =
+		Imprudencia, negligencia o impericia en arte o profesion
+		Inobservancia de reglamentos o deberes a cargo	
+	cantVictimas > 1
+
+94 bis
+	consec =
+		Debilitacion permanente de la salud, de un sentido, de un organo, de un miembro o dificultad permanente de la palabra
+		Puesta en riesgo de la vida
+		Inutilizacion laboral por mas de un mes
+		Deformacion permanente en el rostro
+		Enfermedad mental o corporal, cierta o probablemente incurable
+		Inutilidad laboral permanente
+		Perdida de un sentido, de un organo, de un miembro, del uso de un organo o miembro, de la palabra o de la capacidad de engendrar o concebir
+	proced =
+		conduc imprudente
+	circExt = 
+		No (Si hay agravantes)
+	
+89	
+	consec =
+		Otro daño no mencionado
+	proced =
+		NOT emocion violenta
+		NOT conduc imprudente
+	
+
+	
+	
+
+

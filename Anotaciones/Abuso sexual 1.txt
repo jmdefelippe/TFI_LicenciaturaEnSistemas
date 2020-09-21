@@ -1,0 +1,31 @@
+ABUSO SEXUAL
+	edadVictima < 13
+
+	Violencia
+	Amenaza
+	Abuso coactivo o intimidatorio de una relacion de dependencia, de autoridad o de poder
+	Aprovechamiento de que la victima por cualquier causa no haya podido consentir libremente la accion
+
+Sometimiento sexual gravamente ultrajante para la victima
+
+Acceso carnal por via anal, vaginal u oral o se realizare otros actos analogos introduciendo objetos o partes del cuerpo por alguna de las dos primeras vias
+
+Grave danio en la salud fisica o mental de la victima
+
+RelacionConVictima
+			Ascendiente / Descendiente
+			Afín en linea recta
+			Hermano
+			Tutor
+			Curador
+			Ministro de algun culto reconocido o no
+			Encargado de la educacion o de la guarda
+Autor tuviere conocimiento de ser portador de una enfermedad de transmision sexual grave, y hubiere existido peligro de contagio
+
+CantidadVictimarios > 1
+Hecho cometido con armas
+
+Hecho cometido por personal perteneciente a las fuerzas policiales o de seguridad, en ocasion de sus funciones
+
+Hecho cometido contra un menor de 18 anios, aprovechando la situacion de convivencia preexistente con el mismo
+	Al ingresar edadVictima hay que poner q sea <18

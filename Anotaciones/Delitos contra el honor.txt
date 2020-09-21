@@ -1,0 +1,106 @@
+109
+Calumnia: Falsa imputacion a una persona fisica de la comision de un delito que de lugar a la accion publica
+	Pena: Multa de $3000 a $30000
+	Excluye:
+		Expresiones referidas a asuntos de interes publico
+		Expresiones que no sean asertivas
+
+110		
+Injuria: Deshonra o desacreditacion intencional a una persona fisica
+	Pena: Multa de $1500 a $20000
+	Excluye:
+		Expresiones referidas a asuntos de interes publico
+		Expresiones que no sean asertivas
+		Calificativos lesivos del honor que guarden relacion con un asunto de interes publico
+		
+VER 111
+
+Acusado de injuria prueba la verdad de la imputacion
+	el hecho atribuido a la persona ofendida dio lugar a un proceso penal
+	el querellante pide la prueba de la imputacion contra el
+	
+	Pena: Acusado exento de pena
+
+
+
+**Publicacion en medios de comunicacion
+
+Publicar o reproducir injurias o calumnias inferidas por otro, no siendo su contenido fiel a la fuente pertinente
+	Excluye:
+		Expresiones referidas a asuntos de interes publico
+		Expresiones que no sean asertivas
+		
+
+113&114		
+Publicar o reproducir injurias inferidas por otro, no siendo su contenido fiel a la fuente pertinente
+	Pena: Multa de $3000 a $30000
+	Pena: El ofendido puede pedirle al juez que ordene publicar la sentencia que condena a quien lo ofendio.
+Publicar o reproducir calumnias inferidas por otro, no siendo su contenido fiel a la fuente pertinente
+	Pena: Multa de $1500 a $20000
+	Pena: El ofendido puede pedirle al juez que ordene publicar la sentencia que condena a quien lo ofendio.
+		
+
+115		
+Injuria realizada por defensores ante los tribunales y no dada a publicidad
+	Pena: Correccion disciplinaria correspondiente
+
+116
+Injurias reciprocas
+	Pena: Ambas partes quedan exentas de pena
+	
+117	
+Arrepentimiento publico por parte del acusado sobre la injuria o calumnia realizada
+	Pena: Acusado exento de pena
+	
+117bis --> ACA DEBO PREGUNTAR SI QUIEN PROPORCIONO LA INFORMACION FUE UN FUNCIONARIO PUBLICO EN EJERCICIO DE SUS FUNCIONES
+		¿La informacion fue proporcionada por un funcionario publico en ejercicio de sus funciones?
+
+Proporcionar a un tercero informacion falsa contenida en un archivo de datos personales, sin generar perjuicio a alguna persona
+CircExt = Si (NO ES FUNCIONARIO PUBLICO)
+	Pena: Prision 6 meses a 3 anios
+	
+Proporcionar a un tercero informacion falsa contenida en un archivo de datos personales, generarando perjuicio a alguna persona
+CircExt = Si (NO ES FUNCIONARIO PUBLICO)
+	Pena: Prision 9 meses a 4 anios y medio
+
+
+
+Proporcionar a un tercero informacion falsa contenida en un archivo de datos personales, sin generar perjuicio a alguna persona
+CircExt = No (ES FUNCIONARIO PUBLICO)
+	Pena: Prision 6 meses a 3 anios
+	Pena: Inhabilitacion para el desempeño de cargos publicos, 1 anio a 6 anios
+
+Proporcionar a un tercero informacion falsa contenida en un archivo de datos personales, generarando perjuicio a alguna persona
+CircExt = No (ES FUNCIONARIO PUBLICO)
+	Pena: Prision 9 meses a 4 anios y medio
+	Pena: Inhabilitacion para el desempeño de cargos publicos, 1 anio y medio a 9 anios
+
+
+
+
+
+
+                (printout t "Indique el delito contra el honor, o si se trata de arrepentimiento:" crlf)
+                (printout t "   1 - Calumnia" crlf)
+                (printout t "   2 - Injuria" crlf)
+                (printout t "   3 - Publicacion en medios de comunicacion" crlf)
+                (printout t "   4 - Arrepentimiento" crlf)
+                (printout t "   5 - Proporcion a un tercero de informacion falsa contenida en un archivo de datos personales")
+
+                (printout t "" crlf)
+
+				
+				
+
+Calumnia (Falsa imputacion a una persona fisica de la comision de un delito que de lugar a la accion publica)
+Injuria (Deshonra o desacreditacion intencional a una persona fisica)
+Ninguno (Acusado de injuria prueba la verdad de la imputacion)
+Publicar o reproducir (en cualquier medio) injurias inferidas por otro, no siendo su contenido fiel a la fuente pertinente
+Publicar o reproducir (en cualquier medio) calumnias inferidas por otro, no siendo su contenido fiel a la fuente pertinente
+Injuria realizada por defensores ante los tribunales y no dada a publicidad
+Injurias reciprocas
+**Arrepentimiento publico por parte del acusado sobre la injuria o calumnia realizada
+Proporcionar a un tercero informacion falsa contenida en un archivo de datos personales, sin generar perjuicio a alguna persona
+Proporcionar a un tercero informacion falsa contenida en un archivo de datos personales, generarando perjuicio a alguna persona
+				
+				

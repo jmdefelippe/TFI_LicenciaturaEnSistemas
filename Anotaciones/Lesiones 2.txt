@@ -1,0 +1,45 @@
+Procedimientos
+	Ningun procedimiento indisioso
+	Ensaniamiento
+	Alevosia
+	Veneno
+	Emocion violenta
+	Imprudencia, negligencia o impericia en arte o profesion
+	Inobservancia de reglamentos o deberes a cargo
+	Conduccion imprudente, negligente o anterriglamentaria de un vehiculo con motor		--> MOSTRAR AGRAVANTES EN EL MENU!!
+	Otro procedimiento indisioso
+
+Consecuencias
+90	Debilitacion permanente de la salud, de un sentido, de un organo, de un miembro o dificultad permanente de la palabra
+90	Puesta en riesgo de la vida
+90	Inutilizacion laboral por mas de un mes
+90	Deformacion permanente en el rostro
+91	Enfermedad mental o corporal, cierta o probablemente incurable
+91	Inutilidad laboral permanente
+91	Perdida de un sentido, de un organo, de un miembro, del uso de un organo o miembro, de la palabra o de la capacidad de engendrar o concebir
+	Danio en el cuerpo o en la salud
+89	Otro danio no mencionado
+	
+Motivos art 80B
+	Precio
+	Promesa remuneratoria
+	Placer
+	Codicia
+	Odio racial
+	Odio religioso
+	Odio de genero
+	Odio a la orientacion sexual
+	Odio a la identidad de genero o su expresion
+	Medio idoneo para crear un peligro comun
+	Funcion/cargo/condicion de seguridad publica/policial/penitenciaria (de la victima)
+	Abuso de funcion/cargo de seguridad publica/policial/penitenciaria (del victimario)
+	Violencia de genero (De hombre a mujer)
+	Causar sufrimiento
+	Preparar otro delito
+	Facilitar otro delito
+	Consumar otro delito
+	Ocultar otro delito
+	Asegurar resultados de otro delito
+	Procurar impunidad para si u otro delito
+	No haber logrado el fin de otro delito
+	Ninguno de los anteriores

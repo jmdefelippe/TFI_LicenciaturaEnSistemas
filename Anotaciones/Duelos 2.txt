@@ -1,0 +1,119 @@
+97A 1 a 6 meses
+	duelo Descripcion = Batirse a duelo (Condiciones puestas por combatientes)
+	victimarioRol = Combatiente
+	cantVictimarios >2 		(hay dos o mas padrinos)
+	circExt = No			(si se concreto el duelo)
+	OR
+		not exists lesion
+		(exists (lesion (tipoLesion "Otro danio no mencionado"))
+
+97B 1 a 4 años
+	duelo Descripcion = Batirse a duelo (Condiciones puestas por combatientes)
+	victimarioRol = Combatiente
+	cantVictimarios >2 		(hay dos o mas padrinos)
+	circExt = No			(si se concreto el duelo)
+	OR
+		(exists (lesion (tipoLesion "Debilitacion permanente de la salud, de un sentido, de un organo, de un miembro o dificultad permanente de la palabra")))
+		(exists (lesion (tipoLesion "Puesta en riesgo de la vida")))
+		(exists (lesion (tipoLesion "Inutilizacion laboral por mas de un mes")))
+		(exists (lesion (tipoLesion "Deformacion permanente en el rostro")))
+		(exists (lesion (tipoLesion "Enfermedad mental o corporal, cierta o probablemente incurable")))
+		(exists (lesion (tipoLesion "Inutilidad laboral permanente")))
+		(exists (lesion (tipoLesion "Perdida de un sentido, de un organo, de un miembro, del uso de un organo o miembro, de la palabra o de la capacidad de engendrar o concebir")))
+
+97C 1 a 4 años
+	duelo Descripcion = Batirse a duelo (Condiciones puestas por combatientes)
+	victimarioRol = Combatiente
+	cantVictimarios >2 		(hay dos o mas padrinos)
+	circExt = No			(si se concreto el duelo)
+	estadoVictima = fallecido		*****PODRIA FIJAR EL ESTADO EN EL IF***** --> (exists (caso (delito "Homicidio")))
+
+98A --> EN EL MENU IF TENGO Q COPIAR EL IF DE HOMICIDIO	
+	duelo Descripcion = Batirse a duelo (Condiciones puestas por combatientes)
+	cantVictimarios = 1 		(no hay padrinos)
+	circExt = No			(si se concreto el duelo)
+	(exists (victima (estado "Fallecido")))
+	LA CULPA DEPENDE DE LA RELACION CON LA VICTIMA --> 80A Y 80B
+	
+98B -->	EN EL MENU IF TENGO Q COPIAR EL IF DE LESIONES
+	duelo Descripcion = Batirse a duelo (Condiciones puestas por combatientes)
+	cantVictimarios = 1 		(no hay padrinos)
+	circExt = No			(si se concreto el duelo)
+	(exists (victima (estado "Con vida, con heridas")))
+	
+98C 1 mes a 1 año
+	duelo Descripcion = Batirse a duelo (Condiciones puestas por combatientes)
+	cantVictimarios = 1 		;(no hay padrinos)
+	circExt = No			(si se concreto el duelo)
+	(exists (victima (estado "Con vida, sin heridas")))
+		
+		
+99A multa de $1000 a $15000
+	OR
+		Instigar a otro a provocar o a aceptar un duelo
+		Desacreditar publicamente a otro por no desafiar o por rehusar un desafio
+	circExt = Si
+
+99B multa de $1000 a $15000
+	OR
+		Instigar a otro a provocar o a aceptar un duelo
+		Desacreditar publicamente a otro por no desafiar o por rehusar un desafio
+	circExt = no
+	OR
+		estadoVictima con vida sin heridas
+		estadoVictima lesiones "Otro danio no mencionado"
+
+99C 1 a 4 años
+	OR
+		Instigar a otro a provocar o a aceptar un duelo
+		Desacreditar publicamente a otro por no desafiar o por rehusar un desafio
+	circExt = no	
+	OR	
+		estadoVictima = fallecido
+		estadoVictima = lesiones 90 91 (1 a 7)
+		" " (son 7)
+	
+100A 1 a 4 años
+	Provocar o dar causa a un desafio, proponiendose un interes pecunario u otro objeto inmoral	
+	circExt = Si 	***** Si el duelo no se verificare o si esfectuandose no resultare muerte ni lesiones *****
+	estadoVictima = con vida sin heridas
+	
+	
+100B 3 a 10 años	
+	Provocar o dar causa a un desafio, proponiendose un interes pecunario u otro objeto inmoral	
+	circExt = No 	
+	estadoVictima = con vida con heridas	
+
+100C 10 a 25 años	
+	Provocar o dar causa a un desafio, proponiendose un interes pecunario u otro objeto inmoral	
+	circExt = No 	
+	estadoVictima = fallecido		
+	
+101A 3 A 10 años
+	Batirse a duelo (Condiciones puestas por padrinos)
+	estadoVictima = con vida, con heridas
+
+101B 20 a 25 años		
+	Batirse a duelo (Condiciones puestas por padrinos)
+	estadoVictima = fallecido
+	
+102A 3 A 10 años
+	Padrinos de un duelo utilizan cualquier genero de alevosia en la ejecucion del mismo
+	estadoVictima = con vida, con heridas
+
+
+102B 20 a 25 años	
+	Padrinos de un duelo utilizan cualquier genero de alevosia en la ejecucion del mismo
+	estadoVictima = fallecido
+
+	
+	
+	
+103A 1 a 4 años
+	Padrinos concertan un duelo a muerte o en condiciones tales que de ellas debiere resultar la muerte
+	estadoVictima = fallecido
+
+103B multa de $1000 a $15000	
+	Padrinos concertan un duelo a muerte o en condiciones tales que de ellas debiere resultar la muerte
+	estadoVictima = NOT fallecido	
+		

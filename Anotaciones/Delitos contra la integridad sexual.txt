@@ -1,0 +1,68 @@
+					***** ABUSO SEXUAL *****
+					************************
+119A PRIMER PARRAFO
+
+Condena: Prision 6 meses a 4 anios
+Abuso sexual
+	Victima menor de 13 anios
+	Violencia
+	Amenaza
+	Abuso coactivo o intimidatorio de una relacion de dependencia, de autoridad o de poder
+	Aprovechamiento de que la victima por cualquier causa no haya podido consentir libremente la accion
+	
+119B	SEGUNDO PARRAFO
+Condena: 4 a 10 anios
+Abuso sexual
+	Sometimiento sexual gravamente ultrajante para la victima
+	
+
+119C TERCER PARRAFO
+Condena: 6 a 15 anios
+Abuso sexual
+	Al primer parrafo se le suma esto: (podria ser circExt)
+	Acceso carnal por via anal, vaginal u oral o se realizare otros actos analogos introduciendo objetos o partes del cuerpo por alguna de las dos primeras vias
+	
+
+119D (incluye 119B y 119C)
+Condena: 8 a 20 anios
+Abuso sexual
+
+IA		Grave danio en la salud fisica o mental de la victima
+IB		Relacion
+			Ascendiente / Descendiente
+			Afín en linea recta
+			Hermano
+			Tutor
+			Curador
+			Ministro de algun culto reconocido o no
+			Encargado de la educacion o de la guarda
+IC		Autor tuviere conocimiento de ser portador de una enfermedad de transmision sexual grave, y hubiere existido peligro de contagio
+ID		Hecho cometido por 2 o mas personas o con armas
+			SI SELECCIONA ESTA OPCION, MOSTRAR PARA ELEGIR CANTIDAD DE VICTIMARIOS DESDE 2 EN ADELANTE
+IE		Hecho cometido por personal perteneciente a las fuerzas policiales o de seguridad, en ocasion de sus funciones
+IF		Hecho cometido contra un menor de 18 anios, aprovechando la situacion de convivencia preexistente con el mismo
+
+
+119A' Misma regla que 119A pero si ocurren IA, IB, ID, IE O IF
+Condena: 3 a 10 anios
+
+
+120
+Abuso sexual
+Condena: 3 a 6 anios
+
+	SEGUNDO O TERCER PARRAFO
+	Victima menor de 16 anios
+	Aprovechandose de la inmadurez sexual de la victima, en razon de la mayoria de edad del autor, su relacion de preeminencia respecto de la victima u otra circunstancia equivalente
+		(siempre que no resultare un delito mas severamente penado)
+	
+Condena: 6 a 10 anios
+	IDEM ANTERIOR
+	Si existe: IA, IB, IC, IE o IF
+
+
+124
+Condena: Prision perpetua (25 anios)
+Cualquiera fuere el caso, si estadoVictima = fallecido
+	
+	

@@ -1,0 +1,48 @@
+edadVictima < 13
+edadVictima > 12 y edadVictima < 17
+
+Abuso sexual
+		
+		Violencia
+		Amenaza
+		Abuso coactivo o intimidatorio de una relacion de dependencia, de autoridad o de poder
+		Aprovechamiento de que la victima por cualquier causa no haya podido consentir libremente la accion
+
+		
+Abuso sexual gravemente ultrajante
+		Exceso que afecta aún más la dignidad de la víctima, la humilla y la degrada
+
+Abuso sexual agravado por acceso carnal.
+		Acceso carnal por via anal, vaginal u oral o se realizare otros actos analogos introduciendo objetos o partes del cuerpo por alguna de las dos primeras vias
+
+		
+A					Abuso sexual agravado por el resultado
+							Grave danio en la salud fisica o mental de la victima
+
+B					Abuso sexual agravado por el parentesco con la víctima
+								Ascendiente / Descendiente
+								Afín en linea recta
+								Hermano
+								Tutor
+
+B					Abuso sexual agravado por la calidad del autor
+								Curador
+								Ministro de algun culto reconocido o no
+								Encargado de la educacion o de la guarda
+E								Personal perteneciente a las fuerzas policiales o de seguridad, en ocasion de sus funciones
+								
+C					Abuso sexual agravado por la enfermedad del autor
+							Autor sabe que es portador de una enfermedad de transmisión sexual grave y hay peligro de contagio
+
+D					Abuso sexual agravado por el numero de autores
+							CantidadVictimarios > 1
+						
+D					Abuso sexual agravado por el medio empleado
+							Cometido con armas
+
+					Abuso sexual agravado 		
+							
+F					Abuso sexual agravado por la edad y situación de la víctima
+							EdadVictima < 18
+							EstadoVictima = Con vida, con lesiones -->		Grave danio en la salud fisica o mental de la victima
+							EstadoVictima = Fallecido
