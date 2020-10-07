@@ -1,0 +1,6 @@
+Copiar los siguientes archivos que se encuentran en la carpeta VistaTFI en C:\Windows
+
+
+CLIPSJNI.dll
+CLIPSJNI32.dll
+CLIPSJNI64.dll
