@@ -2286,7 +2286,7 @@
         (exists (caso (circunstanciasExternasDeAtenuacion "No"))) ;Es funcionario publico
         =>
         ;(assert (condena (dni ?dni) (tipoCondena "Prision") (tiempo "6 meses a 3 anios")))
-        (assert (condena (dni ?dni) (tipoCondena "Prision") (mesesMin 6) (aniosMax 3)))
+        (assert (condena (dni ?dni) (tipoCondena "Prision") (mesesMin 6) (aniosMax 3) (articulo "117bis")))
         ;(assert (condena (dni ?dni) (tipoCondena "Inhabilitacion para el desempenio de cargos publicos") (tiempo "1 anio a 6 anios")))
         (assert (condena (dni ?dni) (tipoCondena "Inhabilitacion para el desempenio de cargos publicos") (aniosMin 1) (aniosMax 6) (articulo "117bis")))
         (printout t "regla activada: articulo117bis_B" crlf)

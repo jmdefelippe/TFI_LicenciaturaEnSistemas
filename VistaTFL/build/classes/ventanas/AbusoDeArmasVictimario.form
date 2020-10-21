@@ -44,11 +44,11 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="DETERMINADOR DE SANCIONES PARA DELITOS CONTRA LA VIDA, EL HONOR Y LA INTEGRIDAD SEXUAL"/>
+        <Property name="text" type="java.lang.String" value="DETERMINADOR DE SANCIONES PARA DELITOS CONTRA LAS PERSONAS, EL HONOR Y LA INTEGRIDAD SEXUAL"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="50" y="17" width="680" height="20"/>
+          <AbsoluteConstraints x="50" y="17" width="720" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
